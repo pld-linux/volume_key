@@ -1,7 +1,7 @@
 Summary:	An utility for manipulating storage encryption keys and passphrases
 Name:		volume_key
 Version:	0.3.9
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
 Source0:	https://releases.pagure.org/volume_key/%{name}-%{version}.tar.xz
