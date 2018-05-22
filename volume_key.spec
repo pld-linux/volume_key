@@ -1,13 +1,11 @@
 Summary:	An utility for manipulating storage encryption keys and passphrases
 Name:		volume_key
-Version:	0.3.9
-Release:	2
+Version:	0.3.10
+Release:	1
 License:	GPL v2
 Group:		Applications/System
 Source0:	https://releases.pagure.org/volume_key/%{name}-%{version}.tar.xz
-# Source0-md5:	a2d14931177c660e1f3ebbcf5f47d8e2
-Patch0:		%{name}-config.h.patch
-Patch1:		%{name}-fips-crash.patch
+# Source0-md5:	605fd99a6e42916728020562a6edee78
 URL:		https://pagure.io/volume_key/
 BuildRequires:	autoconf >= 2.64
 BuildRequires:	automake
@@ -67,8 +65,6 @@ separately from volumes.
 
 %prep
 %setup -q
-%patch0 -p1
-%patch1 -p1
 
 %build
 %{__libtoolize}
