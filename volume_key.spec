@@ -7,7 +7,7 @@ Summary:	An utility for manipulating storage encryption keys and passphrases
 Summary(pl.UTF-8):	Narzędzie do operacji na kluczach i hasłach do szyfrowania dysków
 Name:		volume_key
 Version:	0.3.12
-Release:	8
+Release:	9
 License:	GPL v2
 Group:		Applications/System
 Source0:	https://releases.pagure.org/volume_key/%{name}-%{version}.tar.xz
